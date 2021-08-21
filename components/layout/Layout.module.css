@@ -1,0 +1,52 @@
+.main {
+    background-image:url('../../assets/img/gradient-1\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.heading, .h1, .subheading {
+    font-family: "Roboto";
+    color: #3C317D;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #3C317D;
+    margin-bottom: 0;
+}
+
+.h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    margin-bottom: 5rem;
+}
+
+.subheading {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+/* mobile displays */
+@media only screen and (max-width: 600px) {
+    .main {
+        background-image:url('../../assets/img/gradient-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 120vh;
+        overflow: hidden;
+    }
+}
+
+

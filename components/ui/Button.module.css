@@ -1,0 +1,76 @@
+.button {
+    display: inline;
+    border-radius: 28px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.button.primary {
+    background: #6C4CDF;
+    color: #FFFFFF;
+    width: 251px;
+    height: 56px;
+}
+
+.button.pdefault {
+    background: #6C4CDF;
+    color: #FFFFFF;
+    width: 120px;
+    height: 46px;
+}
+
+.button.sdefault {
+    background: #F0F1FE;;
+    color: #3C317D;
+    width: 120px;
+    height: 46px;
+}
+
+.button.navbar {
+    background: #6C4CDF;
+    color: #FFFFFF;
+    width: 159px;
+}
+
+/* mobile displays */
+@media only screen and (max-width: 600px) {
+    .button {
+        display: block;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .button.pdefault {
+        position: relative;
+        background: #6C4CDF;
+        color: #FFFFFF;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .button.sdefault {
+        position: relative;
+        background: #F0F1FE;
+        color: #3C317D;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .button.navbar {
+        width: 119px;
+        font-size: 13px;
+        padding: 0.5rem;
+    }
+}

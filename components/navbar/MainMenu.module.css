@@ -1,0 +1,21 @@
+.container {
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 3rem;
+}
+
+.container div {
+    vertical-align: bottom;
+}
+
+/* mobile displays */
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0.5rem 0 0.5rem 1rem;
+    }
+    
+}

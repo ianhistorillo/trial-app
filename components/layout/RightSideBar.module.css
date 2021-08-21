@@ -1,0 +1,40 @@
+.container {
+    background: #FFFFFF;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 49.93%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    padding-left: 9.5%;
+    padding-right: 9.5%;
+    padding-top: 7%;;
+    -webkit-animation: slideIn 2s forwards;
+    -moz-animation: slideIn 2s forwards;
+    animation: slideIn 2s forwards
+}
+
+.close {
+    position: absolute;
+    background-image: url('../../assets/img/close.png');
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 32px;
+    margin-bottom: 2.5%;
+    margin-top: -3rem;
+    margin-left: 75%;
+    cursor: pointer;
+}
+
+/* mobile displays */
+@media only screen and (max-width: 600px) {
+
+    .container {
+        width: 100%;
+        left: 0%;
+        padding-top: 0;
+        height: 120vh;
+    }
+   
+}

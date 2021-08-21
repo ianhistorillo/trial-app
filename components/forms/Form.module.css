@@ -1,0 +1,88 @@
+.form {
+    font-family: "Roboto";
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.agreementText {
+    font-size: 13px;
+    line-height: 21px;
+    padding-top: 2rem;
+}
+
+.styledLink {
+    text-decoration: underline;
+    color: #6C4CDF;
+    font-size: 16px;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.successfulSubmission {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    padding: 2%;
+}
+
+.check {
+    background-image: url('../../assets/img/check.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 128px;
+    background-position: center;
+}
+
+.envelope {
+    background-image: url('../../assets/img/envelope.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 128px;
+    background-position: center;
+}
+
+.successMessage, .textMessage {
+    font-family: "Roboto";
+}
+
+.successMessage {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 28px;
+    color: #3C317D;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.textMessage {
+   font-size: 16px;
+   color: #3C3852;
+   line-height: 19px;
+   text-align: center;
+}
+
+.successfulSubmission button {
+    margin: auto;
+    margin-top: 2rem;    
+}
+
+.link {
+    color: #6C4CDF;
+    text-decoration: underline;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+/* mobile displays */
+@media only screen and (max-width: 600px) {
+    .agreementText {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .styledLink {
+        text-align: center;
+        margin: auto;
+    }
+    
+}

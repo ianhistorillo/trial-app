@@ -1,0 +1,43 @@
+.white {
+    background-image: url('../../assets/img/logo.png');
+    background-repeat: no-repeat;
+    width: 169.09px;
+    height: 32px;
+    margin-bottom: 2.5%;
+}
+
+.transparent {
+    background-image: url('../../assets/img/logo-white.png');
+    background-repeat: no-repeat;
+    width: 169.09px;
+    height: 32px;
+    margin-top: 1rem;
+}
+
+.mobile {
+    background-image: url('../../assets/img/logo-white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 103.09px;
+    height: 19px;
+    margin-top: 1rem;
+}
+
+/* mobile displays */
+@media only screen and (max-width: 600px) {
+    .white {
+        background-image: url('../../assets/img/logo.png');
+        background-repeat: no-repeat;
+        width: 169.09px;
+        height: 32px;
+        margin-bottom: 5rem;
+    }
+
+    .transparent {
+        background-image: url('../../assets/img/logo-white.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 103.09px;
+        height: 19px;
+    }
+}

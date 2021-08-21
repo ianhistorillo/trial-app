@@ -1,0 +1,78 @@
+.heading, .subHeading, .getInTouch {
+    font-family: 'Roboto';
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 46px;
+    color: #FFFFFF;
+    margin: auto;
+    align-items: center;
+    line-height: 56px;
+}
+
+.subHeading {
+    color: #8878A1;
+    font-size: 20px;
+    font-style: normal;   
+    font-weight: normal;
+    line-height: 36px;
+}
+
+.spacing {
+    margin-left: 5.2%;
+    margin-top: 9.08%;
+    margin-bottom: 46.35%;
+}
+
+.greenColor {
+    color: #03EB87;
+}
+
+.getInTouch {
+    display: inline-block;
+    color: white;
+    width: 90px;
+    font-size: 16px;
+    margin-left: 25px;
+    line-height: 18.75px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* 1920 desktop displays */
+@media only screen and (min-width: 1920px) {
+    .spacing {
+        margin-left: 12%;
+    }
+}
+
+/* mobile displays */
+@media only screen and (max-width: 600px) {
+
+    .spacing {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .heading {
+        font-size: 32px;
+        color: #FFFFFF;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .subHeading {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .getInTouch {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}

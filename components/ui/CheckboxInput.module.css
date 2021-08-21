@@ -1,0 +1,32 @@
+.formControl {
+    padding-top: 2rem;
+    font-family: "Roboto";
+    font-weight: normal;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.formControl + .formControl {
+    padding-top: 0;
+    margin-bottom: 5%;
+}
+
+.checkbox {
+    background: #FBFBFB;
+    width: 18px;
+    border: 1px solid #DDDFF5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    vertical-align: bottom; 
+    position: absolute;
+}
+
+
+.formControl label {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 28px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #3C3852;
+}

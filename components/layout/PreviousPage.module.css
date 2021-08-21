@@ -1,0 +1,34 @@
+.icon, .label {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon {
+    background-image:url('../../assets/img/back.png');
+    background-repeat: no-repeat;    
+    width: 5.77px;
+    height: 13px;
+    padding-right: 2rem;
+}
+
+.label {
+    font-family: "Roboto-Normal";
+    color: #3C317D;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* mobile displays */
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 5%;
+    }
+
+    .label {
+        font-family: "Roboto-Normal";
+        color: #3C317D;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+}
